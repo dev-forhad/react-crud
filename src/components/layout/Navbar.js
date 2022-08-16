@@ -25,7 +25,8 @@ const Navbar = () => {
                 </ul>
 
             </div>
-            <button className="btn btn-success">Add User</button>
+            <Link className="btn btn-sm btn-success" to="/users/add"><i class="bi bi-person-plus-fill"> Add User</i></Link>
+            
             </div>
         </nav>
     )
