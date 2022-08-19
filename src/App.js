@@ -8,7 +8,7 @@ import NotFound from './components/pages/NotFound/NotFound'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import AddUser from './components/users/AddUser';
 import EditUser from './components/users/EditUser';
-import "bootstrap-icons/font/bootstrap-icons.css";
+import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
 import DetailsUser from './components/users/DetailsUser';
 
 function App() {

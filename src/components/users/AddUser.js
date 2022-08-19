@@ -22,6 +22,10 @@ const AddUser = () => {
     const onSubmit= async e => {
         debugger;
         e.preventDefault();
+        const result = await axios.get("https://localhost:81/auth/Test");
+        debugger;
+        console.log(result);
+
         await axios.post("http://localhost:3003/users", user);
         navigate("/");
     }
